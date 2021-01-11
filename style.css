@@ -10,6 +10,7 @@ body,html{
 }
 
 body{
+    width:100%;
     background-color: #1B1B1B;
 }
 
@@ -96,6 +97,7 @@ a:hover::before{
     display: flex;
     align-items: center;
     justify-content:center;
+    width:100%;
     
 }
 
@@ -176,6 +178,7 @@ a:hover::before{
 .section-3{
     min-height: 100vh;
     display: flex;
+    width:100%;
     align-items: center;
     justify-content:center;
     flex-direction: column;
@@ -316,6 +319,7 @@ a:hover::before{
     align-items: center;
     justify-content:center;
     flex-direction: column;
+    width:100%;
     
 }
 
@@ -345,6 +349,7 @@ a:hover::before{
     display: flex;
     align-items: center;
     justify-content:center;
+    width:100%;
     flex-direction: column;
     
 }
@@ -382,6 +387,7 @@ a:hover::before{
     display: flex;
     align-items: center;
     justify-content:center;
+    width:100%;
     flex-direction: column;
     
 }
