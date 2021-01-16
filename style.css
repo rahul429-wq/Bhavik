@@ -515,6 +515,7 @@ textarea {
 
 
 #sec-h1{
+    padding: 20px 0px;
     font-size: 4vw !important;
 }
 }
@@ -529,6 +530,8 @@ textarea {
 
 #sec-h1{
     font-size: 4vw !important;
+    padding: 20px 0px;
+
 }
 
 .sec6-box h1,.sec-2-box h1,.sec3-box h1,.sec4-box h1,.sec5-box h1{
@@ -546,6 +549,8 @@ textarea {
 }
 #sec-h1{
     font-size: 4vw !important;
+    padding: 20px 0px;
+
 }
 
 
