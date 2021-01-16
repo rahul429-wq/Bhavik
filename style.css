@@ -115,7 +115,7 @@ a:hover::before{
 .sec2-box h1{
     text-align: center; 
     letter-spacing: 10px;
-    font-size: 2vw;
+    font-size: vw;
 
     color: white    ;
     user-select: none;
@@ -465,7 +465,7 @@ textarea {
         width: 786px;
     }
     .box h1{
-        font-size: 9vw;
+        font-size: 10vw;
         user-select: none;
         font-weight:400;
     
@@ -474,7 +474,7 @@ textarea {
         color: #FFE338;
         user-select: none;
     
-        font-size: 2.8vw;
+        font-size: 2.9vw;
     }
     navbar{
         display: none;
@@ -491,7 +491,8 @@ textarea {
     }
     
     .box h1{
-        font-size: 9vw;
+        font-size: 15vw;
+
         user-select: none;
         font-weight:400;
     
@@ -500,7 +501,7 @@ textarea {
         color: #FFE338;
         user-select: none;
     
-        font-size: 2.8vw;
+        font-size: 2.9vw;
     }
     navbar{
         display: none;
