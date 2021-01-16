@@ -456,7 +456,34 @@ textarea {
 /* /media query/ */
 
 
+@media only screen and (max-width:900px){
+    .section-1,.section-2,.section-3,.sec5-box,.sec6-box{
+        width: 786px;
+    }
+    .box h1{
+        font-size: 9vw;
+        user-select: none;
+        font-weight:400;
+    
+    }
+    .box p{
+        color: #FFE338;
+        user-select: none;
+    
+        font-size: 2.8vw;
+    }
+    navbar{
+        display: none;
+    }
+    
+
+}   
 @media only screen and (max-width:786px){
+    
+    .section-1,.section-2,.section-3,.sec5-box,.sec6-box{
+        width: 600px;
+    }
+    
     .box h1{
         font-size: 9vw;
         user-select: none;
@@ -475,6 +502,26 @@ textarea {
     
 
 }
+
+
+@media only screen and (max-width:600px){
+.section-1,.section-2,.section-3,.sec5-box,.sec6-box{
+    width: 480px;
+}
+
+@media only screen and (max-width:480px){
+.section-1,.section-2,.section-3,.sec5-box,.sec6-box{
+    width: 320px;
+}
+
+
+}
+
+.container{
+    width: 90% !important;
+    margin: auto !important;
+}
+
 
 ::-ms-tooltip{
     transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
