@@ -49,6 +49,6 @@ blue.addEventListener('click',function(){
 });
 black.addEventListener('click',function(){
     body1.style.backgroundColor="#1B1B1B";
-    h1.style.color="white";
+    h1.style.color="#A41C2E";
 
 });
