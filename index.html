@@ -17,12 +17,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
 <title>BHAVIK</title>
 </head>
-<body>
+<body id="body" >
 
     <navbar>
 
         <ul class="animate__animated animate__backInRight animate__delay-0.7s">
-            <li><a data-toggle="tooltip" title="Home" href="#home"></a></li>      <!-- HOME-->
+            <li><a data-toggle="tooltip" class="active" title="Home" href="#home"></a></li>      <!-- HOME-->
             <li><a data-toggle="tooltip" title="About" href="#about"></a></li>     <!--  ABOUT-->
             <li><a data-toggle="tooltip" title="Skills" href="#skills"></a></li>     <!--  SKILLS-->
             <li><a data-toggle="tooltip" title="Portfolio" href="#portfolio"></a></li>     <!-- portfolio-->
@@ -38,8 +38,40 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     <div id="home" class="container box">
         <h1 class="animate__animated animate__bounceIn">BHAVIK PRAJAPATI</h1>
         <p class="animate__animated animate__bounceIn">Code is like humor. When you have to explain it, it’s bad.</p>
+
+
     </div>
   
+
+    <!-- colorschange -->
+
+    <div class="color-change">
+
+        
+        <div onclick="menuClose()" class="close">
+            <div id="f1"></div>
+            <div id="f2"></div>
+            <div id="f3"></div>
+        </div>
+        <div id="red" class="red"></div>
+        <div id="green" class="green"></div>
+        <div id="blue" class="blue"></div>
+        <div id="black" class="black"></div>
+
+    </div>
+
+
+    <!-- colorschange -->
+
+
+
+
+    <div class="container line">
+
+        <hr style="color: white; background-color: white;" >
+    </div>
+
+
 
     <section id="about" class="section-2">
 
@@ -51,17 +83,26 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                         <li>DESIGNER</li>
                     </ul>
                     <div class="cv">
-                        <a href="cv/Bhavik_CV1.pdf">Download C<span>v</span></a>
+                        <a href="cv/Bhavik_CV.pdf">Download C<span>v</span></a>
                     </div>
                     
             </div>
 
 
 
-    </section>
+    
+        </section>
+
+
+
+        <div class="container line">
+
+            <hr style="color: white; background-color: white;" >
+        </div>
 
 
     <section id="skills" class="section-3">
+        
             <div class="container sec3-box">
                 <h1>SKILLS</h1>
                 <div class="container text-center">
@@ -138,8 +179,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 </div>
 
             
-    </section>
+   
+   
+            </section>
 
+
+            
+    <div class="container line">
+
+        <hr style="color: white; background-color: white;" >
+    </div>
     <!-- portfolio -->
 
 
@@ -150,6 +199,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 <p>Coming soon....</p>
             
     </section>
+
+    
+    <div class="container line">
+
+        <hr style="color: white; background-color: white;" >
+    </div>
+
 
     <!-- what i do -->
 
@@ -181,7 +237,15 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 </div>
 
             
+
     </section>
+
+
+    
+    <div class="container line">
+
+        <hr style="color: white; background-color: white;" >
+    </div>
 
     <!-- contact -->
     <section id="contact" class="section-6">
@@ -203,6 +267,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     </section>
 
 
+
+    
+    <div class="container line">
+
+        <hr style="color: white; background-color: white;" >
+    </div>
+
+    <script src="app.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
