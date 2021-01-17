@@ -11,6 +11,7 @@ body,html{
 
 body{
     background-color: #1B1B1B;
+    transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 
@@ -55,6 +56,8 @@ a:hover::before{
     background-color: #878383;
     padding: 10px;
 }
+
+
 
 /* navbar */
 
@@ -450,6 +453,10 @@ textarea {
     color: white;
 }
 
+
+.line{
+    display: none;
+}
 /* sec-6 */
 
 
@@ -478,6 +485,9 @@ textarea {
     }
     navbar{
         display: none;
+    }
+    .line{
+        display: block;
     }
     
 
@@ -518,6 +528,11 @@ textarea {
     padding: 20px 0px;
     font-size: 4vw !important;
 }
+
+
+.line{
+    display: block;
+}
 }
 
 
@@ -537,7 +552,10 @@ textarea {
 .sec6-box h1,.sec-2-box h1,.sec3-box h1,.sec4-box h1,.sec5-box h1{
     font-size: 4vw !important;
 }
-    
+
+.line{
+    display: block;
+}    
 
 }
 
@@ -549,13 +567,16 @@ textarea {
 }
 #sec-h1{
     font-size: 4vw !important;
-    padding: 20px 0px;
-
+    
 }
 
 
 .sec6-box h1,.sec-2-box h1,.sec3-box h1,.sec4-box h1,.sec5-box h1{
     font-size: 4vw !important;
+}
+
+.line{
+    display: block;
 }
     
 }
@@ -571,3 +592,102 @@ textarea {
 ::-ms-tooltip{
     transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+
+
+
+/* color-change */
+
+.color-change
+{
+    transition: 0.3s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    width: 200px;
+    height: 90px;
+    /* background-color: #3C4256; */
+    background-color: RGBA(60,66,86,0.6);
+    position: fixed;
+    top: 40px;
+    right: -148px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* transform: translateX(200px); */
+
+}
+.color-change .red{
+    width: 30px;
+    height: 30px;
+    background-color: #A41C2E;
+}
+.color-change .green{
+    width: 30px;
+    height: 30px;
+    background-color: #556B2E;
+}
+.color-change .blue{
+    width: 30px;
+    height: 30px;
+    background-color: #006DB0;
+
+}
+.color-change .black{
+    width: 30px;
+    height: 30px;
+    background-color: #1B1B1B;
+
+}
+.color-change{
+    padding: 10px;
+
+}
+.color-change .close div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+
+}
+.close{
+    padding: 25px 0px;
+}
+/* 
+.color-change .close div:first-child
+{
+    transform: rotate(45deg)translateY(10px);
+}
+.color-change .close div:nth-child(2){
+    display: none;
+}
+.color-change .close div:last-child{
+    transform: rotate(-45deg)translateY(-10px);
+} */
+/* .toggled{
+   background-color: #006DB0;
+   right: -145px;
+   top: 40px;
+} */
+.ch1{
+    transform: rotate(45deg)translateY(10px);
+}
+.ch2{
+    display: none;
+}
+.ch3{
+    transform: rotate(-45deg)translateY(-10px);
+
+}
+.toggled{
+    right: 0px;
+}
+.t2{
+    background-color: #A41C2E;
+}
+
+
+
+
+
+
+
+/* color-change */
